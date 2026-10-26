@@ -1,4 +1,4 @@
-# Rex Training
+# Superlogical Rex Training
 
 A hands-on introduction to [Superlogical Rex](https://www.superlogical.com/rex), "the multiplexer
 for all work," on macOS: installing it, the core concepts, the `rex` CLI and Lua scripting.

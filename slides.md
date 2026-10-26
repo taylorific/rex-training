@@ -4,10 +4,10 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://cover.sli.dev
 hideInToc: true
-title: "Rex on macOS: Getting Started"
+title: "Superlogical Rex Training"
 author: "Mischa Taylor"
 info: |
-  ## Rex on macOS: Getting Started
+  ## Superlogical Rex Training
   Install, core concepts, the CLI and Lua scripting for Superlogical Rex.
 # apply unocss classes to the current slide
 class: text-center
@@ -22,7 +22,7 @@ themeConfig:
   paginationPagesDisabled: [1]
 ---
 
-# Rex on macOS: Getting Started
+# Superlogical Rex Training
 
 ##### Mischa Taylor | 📧 <taylor@linux.com>
 
