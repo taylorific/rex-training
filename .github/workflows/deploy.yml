@@ -30,7 +30,12 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build -- --base /rex-training/
+        run: |
+          # The index deck at the site root, then one presentation per tool
+          npx slidev build slides.md --base /terminal-multiplexer-training/ --out dist
+          for deck in tmux screen rex herdr ghostty exa; do
+            npx slidev build "$deck.md" --base "/terminal-multiplexer-training/$deck/" --out "dist/$deck"
+          done
 
       - uses: actions/configure-pages@v6
 

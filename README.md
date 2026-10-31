@@ -1,11 +1,31 @@
-# Superlogical Rex Training
+# Terminal Multiplexer Training
 
-A hands-on introduction to [Superlogical Rex](https://www.superlogical.com/rex), "the multiplexer
-for all work," on macOS: installing it, the core concepts, the `rex` CLI and Lua scripting.
+Hands-on introductions to terminal multiplexers (tmux, GNU Screen,
+[Superlogical Rex](https://www.superlogical.com/rex) and [herdr](https://herdr.dev)), plus two
+tools that live alongside them: the [Ghostty](https://ghostty.org) terminal and the exa/eza file
+lister.
 
-The published slides are at <https://taylorific.github.io/rex-training/>.
+The published slides are at <https://taylorific.github.io/terminal-multiplexer-training/>.
 
-The lab scripts used in the slides are in [labs](./labs).
+## Presentations
+
+There's one presentation per tool, plus an index:
+
+| Presentation | Source | Online |
+| --- | --- | --- |
+| Index: one slide per tool | [slides.md](./slides.md) | [/](https://taylorific.github.io/terminal-multiplexer-training/) |
+| tmux | [tmux.md](./tmux.md) | [/tmux/](https://taylorific.github.io/terminal-multiplexer-training/tmux/) |
+| GNU Screen | [screen.md](./screen.md) | [/screen/](https://taylorific.github.io/terminal-multiplexer-training/screen/) |
+| Superlogical Rex | [rex.md](./rex.md) | [/rex/](https://taylorific.github.io/terminal-multiplexer-training/rex/) |
+| herdr | [herdr.md](./herdr.md) | [/herdr/](https://taylorific.github.io/terminal-multiplexer-training/herdr/) |
+| Ghostty | [ghostty.md](./ghostty.md) | [/ghostty/](https://taylorific.github.io/terminal-multiplexer-training/ghostty/) |
+| exa (and eza) | [exa.md](./exa.md) | [/exa/](https://taylorific.github.io/terminal-multiplexer-training/exa/) |
+
+Each tool's directory has a README with its own commands to present the deck. The slides for a
+tool are in `<tool>/<tool>-slides.md`; the Rex lab scripts are in [rex/labs](./rex/labs).
+
+To present one tool's deck, name its file after the image, as in
+`docker.io/boxcutter/slidev tmux.md`, or `npx slidev tmux.md` with Node.js.
 
 ## Running the slides
 
